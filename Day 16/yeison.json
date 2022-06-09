@@ -1,0 +1,18 @@
+{
+    "Alex": {
+        "email" : "Alejandroelcapo@gmail.com",
+        "skills":[
+            "stremear",
+            "beber cerveza",
+            "ofender minorias"
+        ]
+    },
+    "Pablo": {
+        "email" : "pabloreancho@gmail.com",
+        "skills":[
+            "motearse",
+            "beber cerveza",
+            "ofender minorias"
+        ]
+    }
+}
