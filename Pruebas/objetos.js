@@ -4,5 +4,6 @@ let mascota = {
     raza: 'tortuga'
 }
 
-let {nombre, edad, raza} = mascota //Para recuperar datos de un objeto
+//Para recuperar datos de un objeto, se le indican cuales valores de el objeto se quieren obtener
+let {nombre, edad, raza} = mascota 
 console.log(raza)
