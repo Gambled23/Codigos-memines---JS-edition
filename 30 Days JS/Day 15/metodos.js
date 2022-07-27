@@ -5,7 +5,7 @@ class Persona{
         this.edad = 0
     }
     obtenerNombreCompleto(){
-        const fullName = this.firstName + '' + this.lastName
+        const fullName = this.firstName + ' ' + this.lastName
         return fullName
     }
 }
