@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Elementos compuestos</title>
+</head>
+
+<body>
+    <h1>Elementos compuestos</h1>
+    <h2>El pablo</h2>
+    <br><br>
+    <hr>
+    <!--Tipos de inputs-->
+    <label for="correo1">Input de correo</label><br>
+    <input type="email" id="correo1" name="correo1"><br><br>
+
+    <label for="numero1">Input de numero</label><br>
+    <input type="number" id="numero1" name="numero1"><br><br>
+
+    <label for="psw1">Input de password</label><br>
+    <input type="password" id="psw1" name="psw1"><br><br>
+
+    <label for="tel1">Input de telefono</label><br>
+    <input type="tel" name="tel1" id="tel1" maxlength="10"><br><br>
+    <hr>
+
+    <h2>Inputs de seleccion multiple</h2>
+    <input type="checkbox" name="sabor1" id="sabor1" value="chocolate">
+    <label for="sabor1">Chocolate</label><br>
+    <input type="checkbox" name="sabor2" id="sabor2" value="vainilla">
+    <label for="sabor2">Vainilla</label><br>
+    <input type="checkbox" name="sabor3" id="sabor3" value="fresa">
+    <label for="sabor3">Fresa</label><br>
+    <hr>
+
+    <h2>Inputs de seleccion unica</h2>
+    <!--los inputs que estén bajo el mismo nombre, estarán en el mismo radiogroup-->
+    <input type="radio" name="colores" id="rojo" value="rojo">
+    <label for="color1">Rojo</label><br>
+    <input type="radio" name="colores" id="verde" value="verde">
+    <label for="color2">Verde</label><br>
+    <input type="radio" name="colores" id="azul" value="azul">
+    <label for="color3">Azul</label><br>
+    <hr>
+
+    <h2>Select</h2>
+    <label for="Tacos">De qué la orden?</label><br>
+    <select name="tacos" id="tacos">
+        <option value="suadero">suadero</option>
+        <option value="pastor">pastor</option>
+        <option value="tripa">tripa</option>
+    </select>
+    <hr>
+
+    <h2>Select con input</h2>
+    <label for="refresco">Cual refresco?</label><br>
+    <input list="refresco">
+    <datalist id="refresco">
+        <option value="cocacola"></option>
+        <option value="manzana"></option>
+        <option value="limon"></option>
+        <option value="mango"></option>
+        <option value="guayaba"></option>
+        <option value="uva"></option>
+    </datalist>
+    <hr>
+
+    <h2>Input de fecha</h2>
+    <h4>date</h4>
+    <input type="date" name="fecha1" id="fecha1"><br>
+    <h4>datetime-local</h4>
+    <input type="datetime-local" name="fecha2" id="fecha2"><br>
+    <h4>week</h4>
+    <input type="week" name="fecha3" id="fecha3"><br>
+    <h4>time</h4>
+    <input type="time" name="fecha4" id="fecha4"><br>
+    <h4>month</h4>
+    <input type="month" name="fecha5" id="fecha5"><br>
+    <hr>
+
+    <h2>Input de archivo</h2>
+    <input type="file" name="archivo1" id="archivo1"><br>
+    <hr>
+
+    <h2>Input de color</h2>
+    <input type="color" name="color4" id="color4"><br>
+    <hr>
+
+    <h2>Input de rango</h2>
+    <label for="vol">Volumen (entre 0 y 100):</label><br>
+    <input type="range" name="vol" id="vol" min="0" max="100"><br>
+    <hr>
+
+    <h2>Input de boton</h2>
+    <input type="reset"><br>
+    <input type="submit"><br>
+    <input type="button" id="button1" name="button1" value="boton 1" onclick="alert('jaja joto');">
+    <hr>
+
+    <h2>Ejemplo de formulario</h2>
+    <form action="/actions.js" id="form1" method="post">
+        <label for="nombre">Nombre</label>
+        <input type="text" name="nombre" id="nombre"><br>
+        <input type="submit">
+        <input type="reset">
+    </form>
+
+
+</body>
+
+</html>
