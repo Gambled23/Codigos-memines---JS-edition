@@ -1,34 +1,63 @@
 <!DOCTYPE html>
+
 <head>
     <title>Pagina con layout</title>
     <style>
-        
+        * {
+            /*Lo de dentro del asterisco se aplica a todo el sitio*/
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            /*Todo lo que esté dentro del body*/
+            background-color: rgb(249, 215, 202);
+        }
+
+        p {
+            /*Todo lo que esté dentro de la etiqueta P*/
+            color: aqua;
+            text-align: center;
+        }
+
+        #titulo {
+            /*Todo lo que tenga el ID #titulo*/
+            color: #414100;
+            text-align: right;
+        }
+
+        .izquierda {
+            /*Todo lo de la clase izquierda*/
+            color: rgb(255, 0, 204);
+        }
+
+        /*ID tiene más jerarquía que clase*/
+        p.izquierda {
+            text-align: left;
+            text-decoration: underline;
+        }
+
+        .contraste {
+            background-color: black;
+        }
+
+        h1,
+        h2,
+        h3 {
+            font-weight: bold;
+        }
     </style>
 </head>
 
 <body>
     <header>
         <h2>Pablopagina</h2>
-        <h4>parte 2</h4>
+        <h4>parte 3</h4>
     </header>
-
-    <section>
-        <nav>
-            <ul>
-                <li><a href="#">Elemento xd</a></li>
-                <li><a href="#">Elemento elias</a></li>
-                <li><a href="#">Elemento pablo</a></li>
-            </ul>
-        </nav>
-        <article>
-            <h1>Elemento xd</h1>
-            <p>El elemento xd es el elemento más xd del xdverso</p>
-        </article>
-    </section>
-
-    <section>
-        <img src="https://i.imgur.com/5hlKexL.jpeg" alt="imagen de memes">
-    </section>
-
-    <footer>Footer chistoso</footer>
+    <p>Parrafo simple</p>
+    <br>
+    <h3 id="titulo" class="izquierda">Titulo con ID titulo</h3>
+    <h3>Prueba header h3</h3>
+    <p class="izquierda">Prueba parrafo p</p>
+    <h3 class="izquierda contraste">Prueba multiples clases </h3>
+    <!--h3 es de la clase izquierda Y de la clase contraste-->
 </body>
