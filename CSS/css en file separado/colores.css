@@ -1,0 +1,33 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(255, 255, 255);
+}
+
+p{
+    font-size: 20px;
+}
+
+.colorRojo
+{
+    color: red;
+}
+
+.colorRGB
+{
+    color: rgb(0, 220, 121);
+}
+
+.colorRGBA
+{
+    color: rgba(rgb(159, 226, 4), green, blue, alpha);
+}
+
+.colorHEX
+{
+    color: #f25653;
+}
+
+.colorHSL
+{
+    color: rgb(215, 0, 172);
+}
