@@ -1,0 +1,26 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contenedor{
+    min-height: 400px;
+    background-color: rgb(45, 45, 45);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.centrado{
+    text-align: center;
+}
+
+.elemento{
+    height: 200px;
+    width: 200px;
+    background-color: #fe9a9a;
+    border-style: solid;
+    border-width: 5px;
+    border-color: white;
+    padding: 10px;
+}
