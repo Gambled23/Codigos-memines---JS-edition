@@ -1,7 +1,11 @@
 const squareNumber = n => {
-    return n*n
+    return n * n
+}
+
+const restar = (a, b) => {
+    return a - b;
 }
 
 //Se puede simplificar a 
-const squareNumberSimplified = n => n * n  
+const squareNumberSimplified = n => n * n
 
