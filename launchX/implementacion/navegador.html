@@ -6,13 +6,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Implementacion javascript</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <h1 id="titulo">Este es el titulo</h1>
     <p>Pinche pablote</p>
     <p id="parrafo2">parrafo2</p>
-    <p class="links">otro parrafo</p>
+    <a href="https://www.facebook.com/" class="links">Click para ir a facebook</a><br>
+    <h2 id="click" onclick="cambiarTexto(this)">Da click aquí!</h2>
+    <div onmouseover="mOver(this)" onmouseout="mOut(this)">
+        <p>Mouse out me</p>
+    </div>
+    <br>
+    <div onmouseup="mUp(this)" onmousedown="mDown(this)">
+        <p>Presioname</p>
+    </div>
+    <br>
+    <button id="boton">Pruebame</button>
 </body>
 
 <footer>
