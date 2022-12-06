@@ -15,7 +15,8 @@ router.get('/contacto', (req, res) =>{
     res.sendFile(path.join(__dirname + '/templates/contacto.html'))
 })
 router.get('/perfil', (req, res) =>{
-    res.sendFile(path.join(__dirname + '/templates/perfil.html'))
+    //res.sendFile(path.join(__dirname + '/templates/perfil.html'))
+    res.sendFile(path.join(__dirname + '/templates/document.pdf')) //Se puede mostrar cualquier documento
 })
 
 router.post('/', (req, res) =>{
