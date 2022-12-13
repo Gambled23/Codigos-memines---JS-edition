@@ -1,5 +1,5 @@
 let expect = require('chai').expect;
-let converter = require('../index.js');
+let converter = require('../converter.js');
 
 describe('convertidor de codigos de color', function () { //Nombre del test
     describe('rgb to hex', function () {
