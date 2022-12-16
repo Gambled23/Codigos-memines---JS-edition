@@ -1,18 +1,15 @@
 {
-  "name": "refactorizacion",
+  "name": "bases-de-datos-api",
   "version": "1.0.0",
-  "description": "",
+  "description": "API de lenguajes de programacion",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "eslint": "^8.29.0"
-  },
   "dependencies": {
-    "jsdoc": "^4.0.0"
+    "express": "^4.18.2",
+    "mysql": "^2.18.1"
   }
 }
